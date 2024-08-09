@@ -4,27 +4,27 @@
   "description" : "Hey, I'm DANIEL DJAKAM A Web Developer.",
   "icons": [
     {
-      "src": "site/favicon16.ico",
+      "src": "assets/site/favicon16.ico",
       "sizes": "16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "site/favicon32.ico",
+      "src": "assets/site/favicon32.ico",
       "sizes": "32x32",
       "type": "image/x-icon"
     },
     {
-      "src": "site/favicon.ico",
+      "src": "assets/site/favicon.ico",
       "sizes": "64x64",
       "type": "image/x-icon"
     },
     {
-      "src": "site/logo192.png",
+      "src": "assets/site/logo192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "site/logo512.png",
+      "src": "assets/site/logo512.png",
       "type": "image/png",
       "sizes": "512x512"
     }

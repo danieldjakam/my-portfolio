@@ -1,9 +1,11 @@
 import React from 'react'
 
 function RigthBar() {
-  return (
-    <div>RigthBar</div>
-  )
+	return (
+		<div className=''>
+			RigthBar
+		</div>
+	)
 }
 
 export default RigthBar
