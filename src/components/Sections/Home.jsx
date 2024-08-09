@@ -2,7 +2,7 @@ import React from 'react'
 
 function Home() {
 	return (
-		<div className='section-width'>
+		<div id='home' className='h-screen section-width'>
 			homed
 		</div>
 	)

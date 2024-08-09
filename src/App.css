@@ -5,3 +5,11 @@
 .section-width{
     width: calc(100vw - (250px + 75px));
 }
+
+.main{
+    overflow-y: scroll;
+}
+
+.main::-webkit-scrollbar{
+    display: none;
+}
