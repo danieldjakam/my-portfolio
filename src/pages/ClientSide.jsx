@@ -5,9 +5,9 @@ import Home from '../components/Sections/Home'
 
 function ClientSide() {
     return (
-        <div>
+        <div className='flex bg-slate-200 h-[100vh]'>
             <SideBar/>
-            <div className="main">
+            <div className="main px-4">
                 <Home/>
             </div>
             <RigthBar/>

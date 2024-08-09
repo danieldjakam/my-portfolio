@@ -2,7 +2,7 @@ import React from 'react'
 
 function RigthBar() {
 	return (
-		<div className=''>
+		<div className='w-[75px] bg-white'>
 			RigthBar
 		</div>
 	)
