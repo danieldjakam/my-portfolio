@@ -1,18 +1,14 @@
-import './App.css';
-import ThemeToggleButton from './components/global/ThemeToggleButton';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import Home from './components/pages/Home';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-
-      header">
-        <div className="bg-primary-light dark:bg-primary-dark text-white p-4">
-          <h1 className="text-4xl font-bold">Hello, Tailwind CSS!</h1>
-
-        </div>
-        <ThemeToggleButton/>
-      </header>
-    </div>
+    <Router>
+        <Routes>
+          <Route path="" element={<Home />} />
+        </Routes>
+    </Router>
   );
 }
 
