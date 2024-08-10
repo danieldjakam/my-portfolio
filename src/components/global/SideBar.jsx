@@ -5,6 +5,8 @@ import SideBarWithPercent from '../ui/SideBar/SideBarWithPercent'
 import { getLanguage } from '../../functions/languages'
 import { getSkills } from '../../functions/skills'
 import SideBarSectionWithText from '../ui/SideBar/SideBarSectionWithText'
+import CustomBtn from '../ui/CustomBtn'
+import { Download } from '@mui/icons-material'
 
 function SideBar() {		
 	return (
@@ -20,6 +22,8 @@ function SideBar() {
 			<SideBarWithPercent title="Languages" data={getLanguage()}/>	
 			<SideBarWithPercent title={"Skills"} data={getSkills()}/>		
 			<SideBarSectionWithText/>
+			
+			<CustomBtn text={<><Download/> <span className='ml-0.5'>DOWNLOAD CV</span></>} className={'text-sm hover:bg-primary-fonced px-4  text-white font-bold rounded-full transition duration-500 ease-in-out hover:translate-x-2'}/>
 		</div>
 	)
 }

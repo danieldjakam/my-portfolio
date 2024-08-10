@@ -3,7 +3,7 @@ import React from 'react'
 function Percent({title, value}) {
   return (
     <div className='w-full my-3'>
-        <h5 className='flex justify-between text-sm text-slate-400 dark:text-slate-400 '>
+        <h5 className='flex justify-between text-sm text-slate-400 dark:text-slate-400'>
             <span>{title}</span>
             <span>{`${value}%`}</span>
         </h5>
