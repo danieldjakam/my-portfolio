@@ -6,7 +6,7 @@ import Services from '../components/Sections/Services'
 
 function ClientSide() {
     return (
-        <div className='flex bg-slate-200 dark:bg-gray-800 h-[100vh]'>
+        <div className='flex bg-slate-200 dark:bg-slate-800 h-[100vh]'>
             <SideBar/>
             <div className="main px-4">
                 <Home/>

@@ -3,7 +3,7 @@ import React from 'react'
 import { ChatBubble, Home, School, Terminal, WhatsApp, Work } from '@mui/icons-material';
 import CustomBtn from '../ui/CustomBtn';
 import {useTheme} from '../../context/themeContext'
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link} from 'react-scroll';
 
 function RigthBar() {
 	const {darkMode, toggleTheme} = useTheme();
@@ -36,7 +36,7 @@ function RigthBar() {
 							<Terminal/>
 						</Link>
 					}  
-					color={'text-primary'} bgColor={darkMode ? 'bg-gray-900' : 'bg-white'} className={'hover:bg-primary hover:text-white duration-500'} />
+					color={'text-primary'} bgColor={darkMode ? 'bg-gray-900' : 'bg-white'} className={'hover:bg-primary hover:text-white duration-300'} />
 					
 					
 				<CustomBtn 
@@ -49,7 +49,7 @@ function RigthBar() {
 							<School/>
 						</Link>
 					}  
-					color={'text-primary'} bgColor={darkMode ? 'bg-gray-900' : 'bg-white'} className={'hover:bg-primary hover:text-white duration-500'} />
+					color={'text-primary'} bgColor={darkMode ? 'bg-gray-900' : 'bg-white'} className={'hover:bg-primary hover:text-white duration-300'} />
 					
 				<CustomBtn 
 					text={
@@ -61,7 +61,7 @@ function RigthBar() {
 							<Work/>
 						</Link>
 					}  
-					color={'text-primary'} bgColor={darkMode ? 'bg-gray-900' : 'bg-white'} className={'hover:bg-primary hover:text-white duration-500'} />
+					color={'text-primary'} bgColor={darkMode ? 'bg-gray-900' : 'bg-white'} className={'hover:bg-primary hover:text-white duration-300'} />
 					
 				<CustomBtn 
 					text={
@@ -73,7 +73,7 @@ function RigthBar() {
 							<Terminal/>
 						</Link>
 					}  
-					color={'text-primary'} bgColor={darkMode ? 'bg-gray-900' : 'bg-white'} className={'hover:bg-primary hover:text-white duration-500'} />
+					color={'text-primary'} bgColor={darkMode ? 'bg-gray-900' : 'bg-white'} className={'hover:bg-primary hover:text-white duration-300'} />
 				
 				<CustomBtn 
 					text={
@@ -85,7 +85,7 @@ function RigthBar() {
 							<ChatBubble/>
 						</Link>
 					}  
-					color={'text-primary'} bgColor={darkMode ? 'bg-gray-900' : 'bg-white'} className={'hover:bg-primary hover:text-white duration-500'} />
+					color={'text-primary'} bgColor={darkMode ? 'bg-gray-900' : 'bg-white'} className={'hover:bg-primary hover:text-white duration-300'} />
 			</div>
 
 			<div className="whatsapp">

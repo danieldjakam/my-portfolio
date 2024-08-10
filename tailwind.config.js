@@ -9,9 +9,13 @@ module.exports = {
 			primary: {
 				light: '#4886E9',
 				DEFAULT: '#4886E9',
-				dark: '#2c7a7b',
+				dark: '#6B9EF2',
 				fonced: '#3A6BBA'
 			},
+			text: {
+				light: "#4A4A4A",
+				dark: "#BFBFBF"
+			}
 		},
 		},
 	},
