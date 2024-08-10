@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .section-width{
-    width: calc(100vw - (250px + 75px));
+    width: calc(100vw - (300px + 75px));
 }
 
 .main{

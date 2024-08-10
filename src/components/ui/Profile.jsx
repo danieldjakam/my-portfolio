@@ -38,7 +38,7 @@ function Profile() {
                 </a>
             </div>
         </div>
-        <hr className="w-full mt-4 border border-slate-300" />
+        <hr className="w-full mt-4 border border-slate-300 dark:border-slate-400" />
     </div>
   )
 }
