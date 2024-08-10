@@ -6,7 +6,7 @@ function InlineSideBarInfo({text, description, color}) {
         <span className='bg-primary text-white px-2'>
             {text} :
         </span>
-        <span className={`${color ? color : ''}`}>
+        <span className={`${color ? color : 'text-slate-500 dark:text-slate-400'}`}>
             {description}
         </span>
     </div>
