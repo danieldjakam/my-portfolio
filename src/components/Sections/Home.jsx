@@ -1,9 +1,11 @@
 import React from 'react'
 
 function Home() {
-  return (
-    <div>Home</div>
-  )
+	return (
+		<div id='home' className='h-screen section-width'>
+			homed
+		</div>
+	)
 }
 
 export default Home

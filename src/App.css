@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.section-width{
+    width: calc(100vw - (300px + 75px));
+}
+
+.main{
+    overflow-y: scroll;
+}
+
+.main::-webkit-scrollbar{
+    display: none;
+}

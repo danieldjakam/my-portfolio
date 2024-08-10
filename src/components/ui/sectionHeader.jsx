@@ -1,9 +1,9 @@
 import React from 'react'
 
-function sectionHeader() {
+function SectionHeader() {
   return (
-    <div>sectionHeader</div>
+    <div>SectionHeader</div>
   )
 }
 
-export default sectionHeader
+export default SectionHeader

@@ -1,9 +1,98 @@
+import ContrastRoundedIcon from '@mui/icons-material/ContrastRounded';
 import React from 'react'
+import { ChatBubble, Home, School, Terminal, WhatsApp, Work } from '@mui/icons-material';
+import CustomBtn from '../ui/CustomBtn';
+import {useTheme} from '../../context/themeContext'
+import { Link} from 'react-scroll';
 
 function RigthBar() {
-  return (
-    <div>RigthBar</div>
-  )
+	const {darkMode, toggleTheme} = useTheme();
+	return (
+		<div className='w-[75px] bg-white dark:bg-gray-900 flex flex-col items-center justify-between py-4'>
+			<div className="theme">
+				<CustomBtn text={<ContrastRoundedIcon/>} color={darkMode ? 'text-white' : 'text-gray-900'} bgColor={'transparent'}
+					onClick={() => {toggleTheme()}} />
+			</div>
+
+			<div className="links flex flex-col items-center space-y-8">
+				<CustomBtn text={
+						<Link
+							to="home"
+							smooth={true}
+							duration={500}
+						>
+							<Home/>
+						</Link>
+					} 
+					color={'text-white'} bgColor={'bg-primary'} bgFonced={'bg-primary-fonced'} />
+
+				<CustomBtn 
+					text={
+						<Link
+							to="services"
+							smooth={true}
+							duration={500}
+						>
+							<Terminal/>
+						</Link>
+					}  
+					color={'text-primary'} bgColor={darkMode ? 'bg-gray-900' : 'bg-white'} className={'hover:bg-primary hover:text-white duration-300'} />
+					
+					
+				<CustomBtn 
+					text={
+						<Link
+							to="services"
+							smooth={true}
+							duration={500}
+						>
+							<School/>
+						</Link>
+					}  
+					color={'text-primary'} bgColor={darkMode ? 'bg-gray-900' : 'bg-white'} className={'hover:bg-primary hover:text-white duration-300'} />
+					
+				<CustomBtn 
+					text={
+						<Link
+							to="services"
+							smooth={true}
+							duration={500}
+						>
+							<Work/>
+						</Link>
+					}  
+					color={'text-primary'} bgColor={darkMode ? 'bg-gray-900' : 'bg-white'} className={'hover:bg-primary hover:text-white duration-300'} />
+					
+				<CustomBtn 
+					text={
+						<Link
+							to="services"
+							smooth={true}
+							duration={500}
+						>
+							<Terminal/>
+						</Link>
+					}  
+					color={'text-primary'} bgColor={darkMode ? 'bg-gray-900' : 'bg-white'} className={'hover:bg-primary hover:text-white duration-300'} />
+				
+				<CustomBtn 
+					text={
+						<Link
+							to="services"
+							smooth={true}
+							duration={500}
+						>
+							<ChatBubble/>
+						</Link>
+					}  
+					color={'text-primary'} bgColor={darkMode ? 'bg-gray-900' : 'bg-white'} className={'hover:bg-primary hover:text-white duration-300'} />
+			</div>
+
+			<div className="whatsapp">
+			<CustomBtn text={<WhatsApp/>} color={!darkMode ? 'text-green-700' : 'text-green-400'} bgColor={'#fff'} bgFonced={''} />
+			</div>
+		</div>
+	)
 }
 
 export default RigthBar
