@@ -1,5 +1,5 @@
 import React from 'react'
-import me from '../../assets/images/me.png';
+import me from '../../../assets/images/me.png';
 import { GitHub, Instagram, LinkedIn, X } from '@mui/icons-material';
 
 function Profile() {

@@ -1,6 +1,6 @@
 import React from 'react'
-import Profile from '../ui/Profile'
-import InlineSideBarInfo from '../ui/InlineSideBarInfo'
+import Profile from '../ui/SideBar/Profile'
+import InlineSideBarInfo from '../ui/SideBar/InlineSideBarInfo'
 
 function SideBar() {
 	return (
