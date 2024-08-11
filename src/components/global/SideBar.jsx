@@ -1,12 +1,12 @@
 import React from 'react'
 import Profile from '../ui/SideBar/Profile'
 import InlineSideBarInfo from '../ui/SideBar/InlineSideBarInfo'
-import SideBarWithPercent from '../ui/SideBar/SideBarWithPercent'
 import { getLanguage } from '../../functions/languages'
 import { getSkills } from '../../functions/skills'
 import SideBarSectionWithText from '../ui/SideBar/SideBarSectionWithText'
 import CustomBtn from '../ui/CustomBtn'
-import { Download } from '@mui/icons-material'
+import { ContentCopy, DeviceHub, Download, Public } from '@mui/icons-material'
+import { getAdditionalSkill } from '../../functions/additionalSkill'
 
 function SideBar() {		
 	return (
@@ -19,9 +19,9 @@ function SideBar() {
 				<InlineSideBarInfo text="Adress" description="Douala, Cameroun" />
 				<hr className="w-full mt-4 border border-slate-300 dark:border-slate-400" />
 			</div>
-			<SideBarWithPercent title="Languages" data={getLanguage()}/>	
-			<SideBarWithPercent title={"Skills"} data={getSkills()}/>		
-			<SideBarSectionWithText/>
+			<SideBarSectionWithText icon={<Public/>} title="Languages" data={getLanguage()}/>	
+			<SideBarSectionWithText icon={<DeviceHub/>} title={"Skills"} data={getSkills()}/>		
+			<SideBarSectionWithText icon={<ContentCopy/>} title={"Additionnal Skills"} data={getAdditionalSkill()}/>
 			
 			<CustomBtn text={<><Download/> <span className='ml-0.5'>DOWNLOAD CV</span></>} className={'text-sm hover:bg-primary-fonced px-4  text-white font-bold rounded-full transition duration-500 ease-in-out hover:translate-x-2'}/>
 		</div>
