@@ -1,6 +1,7 @@
 export const getSkills = () => {
     return [
-        "Mobile & Web Development",
+        "Mobile & Mobile Fullstack Development",
+        "Networking",
         "UI/UX Design",
         "Infographic"
     ]
