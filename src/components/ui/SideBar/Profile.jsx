@@ -5,7 +5,7 @@ import { GitHub, Instagram, LinkedIn, X } from '@mui/icons-material';
 function Profile() {
   return (
     <div className='flex flex-col items-center w-[80%]'>
-        <div className="bg-primary dark:bg-primary-dark w-[100px] h-[100px] rounded-full">
+        <div className="bg-primary overflow-hidden dark:bg-primary-dark w-[100px] h-[100px] rounded-full">
             <img src={me} className='w-full h-full' alt='Daniel Djakam' />
         </div>
         <div className="flex flex-col items-center my-4 space-y-1">

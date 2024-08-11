@@ -1,8 +1,8 @@
 export const getAdditionalSkill = () => {
     return [
-        "Laravel",
+        // "Laravel",
         "React/React Native",
-        "Swift",
+        // "Swift",
         "Git knowledge"
     ]
 }

@@ -1,11 +1,10 @@
-import { ContentCopy } from '@mui/icons-material'
 import React from 'react'
 
-function AdditionalSkill({text}) {
+function AdditionalSkill({icon, text}) {
   return (
     <div className='flex items-center space-x-2 my-2'>
         <span className='text-primary text-sm'>
-            <ContentCopy/>
+            {icon}
         </span>
         <span className='text-sm text-slate-400 dark:text-slate-400'>
             {text}
