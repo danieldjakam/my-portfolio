@@ -10,7 +10,7 @@ function RigthBar() {
 	const number = process.env.REACT_APP_PHONE_NUMBER;
 	const text = encodeURIComponent(process.env.REACT_APP_CONVERSATION);
 	return (
-		<div className='w-[75px] bg-white dark:bg-gray-900 flex flex-col items-center justify-between py-4'>
+		<div className='w-[75px] bg-white dark:bg-gray-900 flex flex-col items-center justify-between py-8'>
 			<div className="theme">
 				<CustomBtn text={<ContrastRoundedIcon/>} color={darkMode ? 'text-white' : 'text-gray-900'} bgColor={'transparent'}
 					onClick={() => {toggleTheme()}} />
