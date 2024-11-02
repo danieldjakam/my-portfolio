@@ -1,10 +1,22 @@
 import React from 'react'
+import SectionHeader from '../ui/sectionHeader'
+import Section from '../ui/Section'
+import Grid from '../ui/Grid/Grid'
+import GridElement from '../ui/Grid/GridElement'
 
 function Services() {
     return (
-        <div id='services' className='h-screen'>
-            Services
-        </div>
+        <Section title="My Services" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptates possimus nihil adipisci perferendis eius, voluptatum iste ">
+            <Grid>
+                <GridElement/>
+                <GridElement/>
+                <GridElement/>  
+                <GridElement/>
+                <GridElement/>
+                <GridElement/>
+                <GridElement/>
+            </Grid>
+        </Section>
     )
 }
 

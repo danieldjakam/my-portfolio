@@ -14,7 +14,7 @@ function ClientSide() {
                     <FixedElement/>
                 </div>
                 <div className="">
-                    <Home/>
+                    {/* <Home/> */}
                     <Services/>
                 </div>
             </div>

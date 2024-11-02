@@ -17,7 +17,7 @@ function FixedElement() {
                 <CustomBtn text={<><span className='ml-0.5'>Hire Me <ArrowRightAlt/></span></>} className={'text-sm hover:bg-primary-fonced px-4  text-white font-bold rounded-full transition duration-500 ease-in-out hover:translate-x-2'}/>
             </div>
             <div className="w-[40%] flex justify-center items-center">
-                <img src={image} className='w-[200px] h-[200px] object-cover rounded-full mt-[10px] ml-[5px]' alt='Daniel Djakam' />
+                <img src={image} className='w-[auto] h-[300px] object-cover rounded-full mt-[10px] ml-[5px]' alt='Daniel Djakam' />
             </div>
         </div>
     )
