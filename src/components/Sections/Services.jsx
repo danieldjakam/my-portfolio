@@ -1,5 +1,4 @@
 import React from 'react'
-import SectionHeader from '../ui/sectionHeader'
 import Section from '../ui/Section'
 import Grid from '../ui/Grid/Grid'
 import GridElement from '../ui/Grid/GridElement'
