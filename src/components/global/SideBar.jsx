@@ -16,7 +16,7 @@ function SideBar() {
 				<InlineSideBarInfo text="Phone" description="+237691973255" />
 				<InlineSideBarInfo text="Email" description="danidjakam@gmail.com" />
 				<InlineSideBarInfo text="Freelance" description="Available" color="text-green-500" />
-				<InlineSideBarInfo text="Adress" description="Douala, Cameroun" />
+				<InlineSideBarInfo text="Address" description="Douala, Cameroun" />
 				<hr className="w-full mt-4 border border-slate-300 dark:border-slate-400" />
 			</div>
 			<SideBarSectionWithText icon={<Language/>} title="Languages" data={getLanguage()}/>	
