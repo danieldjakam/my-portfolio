@@ -6,14 +6,14 @@ function Profile() {
   return (
     <div className='flex flex-col items-center w-[80%]'>
         <div className="bg-primary overflow-hidden dark:bg-primary-dark w-[100px] h-[100px] rounded-full">
-            <img src={me} className='w-full h-full' alt='Daniel Djakam' />
+            <img src={me} className='w-[90px] h-[90px] object-cover rounded-full mt-[10px] ml-[5px]' alt='Daniel Djakam' />
         </div>
         <div className="flex flex-col items-center my-4 space-y-1">
             <h3 className="font-bold">
                 Daniel Djakam
             </h3>
             <p className="text-slate-500 dark:text-slate-400">
-                Fullstack Developer
+                Web and Mobile Developer
             </p>
         </div>
         <div className="flex justify-between space-x-3 text-sm">
