@@ -4,6 +4,9 @@ import RigthBar from '../components/global/RigthBar'
 import Services from '../components/Sections/Services'
 import FixedElement from '../components/global/FixedElement'
 import Recommendations from '../components/Sections/Recommendations'
+import Education from '../components/Sections/Education'
+import WorkHistory from '../components/Sections/WorkHistory'
+import PortFolio from '../components/Sections/PortFolio'
 
 function ClientSide() {
     return (
@@ -16,6 +19,9 @@ function ClientSide() {
                 <div className="">
                     <Services/>
                     <Recommendations/>
+                    <Education/>
+                    <WorkHistory/>
+                    <PortFolio/>
                 </div>
             </div>
             <RigthBar/>
