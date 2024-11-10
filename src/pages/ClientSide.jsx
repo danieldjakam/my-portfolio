@@ -3,6 +3,7 @@ import SideBar from '../components/global/SideBar'
 import RigthBar from '../components/global/RigthBar'
 import Services from '../components/Sections/Services'
 import FixedElement from '../components/global/FixedElement'
+import Recommendations from '../components/Sections/Recommendations'
 
 function ClientSide() {
     return (
@@ -14,6 +15,7 @@ function ClientSide() {
                 </div>
                 <div className="">
                     <Services/>
+                    <Recommendations/>
                 </div>
             </div>
             <RigthBar/>
