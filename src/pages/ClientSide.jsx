@@ -7,6 +7,7 @@ import Recommendations from '../components/Sections/Recommendations'
 import Education from '../components/Sections/Education'
 import WorkHistory from '../components/Sections/WorkHistory'
 import PortFolio from '../components/Sections/PortFolio'
+import Contact from '../components/Sections/Contact'
 
 function ClientSide() {
     return (
@@ -22,6 +23,7 @@ function ClientSide() {
                     <Education/>
                     <WorkHistory/>
                     <PortFolio/>
+                    <Contact/>
                 </div>
             </div>
             <RigthBar/>

@@ -100,7 +100,7 @@ const Gallery = () => {
     };
 
     return (
-        <div className="p-4">
+        <div className="">
             <div className='flex justify-center space-x-8 mb-6'>
                 {tabs.map((tab, index) => (
                 <span
@@ -123,13 +123,13 @@ const Gallery = () => {
                 {tabs.map((tab, index) => (
                     <div
                         key={index}
-                        className="min-w-full grid grid-cols-2 md:grid-cols-4 gap-4 p-4"
+                        className="min-w-full grid grid-cols-2 md:grid-cols-4 gap-4"
                     >
                         {tab.images.map((img, index) => (
                             <div key={index} className='relative w-full h-[200px] rounded bg-gray-400 dark:bg-gray-700'>
                                 <img src={me} alt={img.src} className='w-full h-full rounded'/>
                                 <div className='absolute top-0 left-0 w-full h-full rounded text-white
-                                                bg-primary opacity-0 hover:opacity-40 cursor-pointer duration-300
+                                                bg-primary opacity-0 hover:opacity-60 cursor-pointer duration-300
                                                 p-2 text-sm
                                                 ' onClick={() => openModal(img.src, img.description)}>
                                     {img.description}
