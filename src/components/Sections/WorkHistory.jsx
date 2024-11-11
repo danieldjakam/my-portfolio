@@ -14,7 +14,7 @@ function WorkHistory() {
                                 </h3>       
                                 <p className='text-sm text-slate-500 dark:text-slate-400 mb-4  space-x-4'>
                                     <span class="">CEO</span>
-                                    <span class="bg-orange-500 rounded px-4 py-1 text-white">Jan 2024 - Dec 2025</span>
+                                    <span class="bg-orange-300 rounded px-4 py-1 text-gray-900">Jan 2024 - Dec 2025</span>
                                 </p>
                             </div>
                             <div>

@@ -10,8 +10,8 @@ function SwipeElement() {
                 <i className='text-orange-300'><Star sx={{fontSize: 20}}/></i>
                 <i className='text-orange-300'><Star sx={{fontSize: 20}}/></i>
                 <i className='text-orange-300'><Star sx={{fontSize: 20}}/></i>
-                <i className='text-gray-300'><Star sx={{fontSize: 20}}/></i>
-                <i className='text-gray-300'><Star sx={{fontSize: 20}}/></i>
+                <i className='text-gray-300 dark:text-gray-500'><Star sx={{fontSize: 20}}/></i>
+                <i className='text-gray-300 dark:text-gray-500'><Star sx={{fontSize: 20}}/></i>
             </p>
             <h3 className='text-medium my-2 font-medium'>
                 Great Quality!

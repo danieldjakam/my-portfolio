@@ -13,7 +13,7 @@ function ClientSide() {
         <div className='flex bg-slate-200 dark:bg-slate-800 h-[100vh] overflow-hidden'>
             <SideBar/>
             <div className="main section-width px-4">
-                <div className=" top-0 h-[auto]  bg-white dark:bg-gray-900 dark:text-white overflow-hidden">
+                <div className=" top-0 h-[auto] bg-white dark:bg-gray-900 dark:text-white overflow-hidden">
                     <FixedElement/>
                 </div>
                 <div className="">

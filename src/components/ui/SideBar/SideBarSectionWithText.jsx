@@ -8,7 +8,7 @@ function SideBarSectionWithText({icon, title, data}) {
         {
             data.map(skill => <AdditionalSkill icon={icon} text={skill}/>)
         }
-        <hr className="w-full mt-4 border border-slate-300 dark:border-slate-400" />
+        <hr className="w-full mt-4 border border-gray-100 dark:border-gray-800" />
     </SideBarSection>
   )
 }

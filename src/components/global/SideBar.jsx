@@ -17,7 +17,7 @@ function SideBar() {
 				<InlineSideBarInfo text="Email" description="danidjakam@gmail.com" />
 				<InlineSideBarInfo text="Freelance" description="Available" color="text-green-500" />
 				<InlineSideBarInfo text="Address" description="Douala, Cameroun" />
-				<hr className="w-full mt-4 border border-slate-300 dark:border-slate-400" />
+				<hr className="w-full mt-4 border border-gray-100 dark:border-gray-800" />
 			</div>
 			<SideBarSectionWithText icon={<Language/>} title="Languages" data={getLanguage()}/>	
 			<SideBarSectionWithText icon={<DeviceHub/>} title={"Skills"} data={getSkills()}/>		
