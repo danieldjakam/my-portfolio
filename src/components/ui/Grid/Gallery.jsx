@@ -113,7 +113,7 @@ const Gallery = () => {
                 ))}
             </div>
 
-            <div className="overflow-x-hidden scrollbar-none relative h-64">
+            <div className="overflow-x-hidden scrollbar-none relative">
                 <div
                 className="flex transition-transform duration-500"
                 style={{
@@ -130,6 +130,7 @@ const Gallery = () => {
                                 <img src={me} alt={img.src} className='w-full h-full rounded'/>
                                 <div className='absolute top-0 left-0 w-full h-full rounded text-white
                                                 bg-primary opacity-0 hover:opacity-40 cursor-pointer duration-300
+                                                p-2 text-sm
                                                 ' onClick={() => openModal(img.src, img.description)}>
                                     {img.description}
                                 </div>
