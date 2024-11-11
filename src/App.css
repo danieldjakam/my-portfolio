@@ -19,8 +19,3 @@
     top: 0;
     left: 300px;
 }
-
-#list-ele:last-child{
-    border-bottom: none !important;
-    transform: rotate(50);
-}

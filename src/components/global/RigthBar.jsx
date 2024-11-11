@@ -91,7 +91,7 @@ function RigthBar() {
 			</div>
 
 			<div className="whatsapp">
-			<CustomBtn text={<WhatsApp/>} onClick={() => {window.open(`https://wa.me/${number}?text=${text}`, '_blank')}} color={!darkMode ? 'text-green-700' : 'text-green-400'} bgColor={'#fff'} bgFonced={''} />
+				<CustomBtn text={<WhatsApp/>} onClick={() => {window.open(`https://wa.me/${number}?text=${text}`, '_blank')}} color={!darkMode ? 'text-green-700' : 'text-green-400'} bgColor={'#fff'} bgFonced={''} />
 			</div>
 		</div>
 	)

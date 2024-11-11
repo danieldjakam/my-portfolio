@@ -7,7 +7,7 @@ function WorkHistory() {
         <div id="list-ele" className='bg-white dark:bg-gray-900 p-4 rounded flex flex-col mb-8'>
             {
                 [1, 2, 3].map(
-                    ele => <div className="my-4 flex border-b-2 border-b-gray-600">
+                    ele => <div className="my-4 flex border-b-2 border-b-gray-100 dark:border-b-gray-800">
                             <div className="min-w-[300px]">
                                 <h3 className='text-medium my-2 font-medium mb-4'>
                                     DJEPHIX
